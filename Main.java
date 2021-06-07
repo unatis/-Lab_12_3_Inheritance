@@ -13,5 +13,8 @@ public class Main {
         Bird bird = new Bird();
         bird.AnimalName = "Crows";
         bird.BirdType = "American Crow";
+        
+        Animal Bird2 = bird;
+        Bird2.AnimalName = "";
     }
 }
